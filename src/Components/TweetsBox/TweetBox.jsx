@@ -1,6 +1,6 @@
 import React from "react";
 import "./TweetBox.css";
-import { Button, Input, Avatar } from "@material-ui/core";
+import { Button, Avatar } from "@material-ui/core";
 
 function TweetBox() {
   return (
@@ -10,7 +10,7 @@ function TweetBox() {
           <Avatar src="https://avatars.githubusercontent.com/u/35429799?v=4" />
           <input placeholder="whats going guys" type="text" />
         </div>
-        <Button>Tweet</Button>
+        <Button className="tweetBox__tweetButton">Tweet</Button>
       </form>
     </div>
   );
