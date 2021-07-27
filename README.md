@@ -1,5 +1,5 @@
 
-## Learning to create a twitte clone using MERN stack with firebase!
+## Learning to create a twitter clone using MERN stack with firebase!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
