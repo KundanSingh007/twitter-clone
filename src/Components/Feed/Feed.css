@@ -6,8 +6,15 @@
 
 }
 
+/** for hiding scrollbar in chrome , safari and opera */
 .feed::-webkit-scrollbar{
   display: none;
+}
+
+/** for hiding scrollbar in IE, edge and Firefox */
+.feed{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .feed__header {
