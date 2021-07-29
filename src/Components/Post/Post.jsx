@@ -33,10 +33,10 @@ function Post({ displayNanme, username, verified, text, image, avatar }) {
           alt="https://gph.is/g/a9y90Ba"
         />
         <div className="post__footer">
-          <ChatBubbleIcon />
-          <RepeatIcon />
-          <FavoriteIcon />
-          <PublishIcon />
+          <ChatBubbleIcon fontSize="small" />
+          <RepeatIcon fontSize="small" />
+          <FavoriteIcon fontSize="small" />
+          <PublishIcon fontSize="small" />
         </div>
       </div>
     </div>
