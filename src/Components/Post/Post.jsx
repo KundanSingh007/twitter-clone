@@ -4,8 +4,8 @@ import "./Post.css";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import RepeatIcon from "@material-ui/icons/Repeat";
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import PublishOutlinedIcon from '@material-ui/icons/PublishOutlined';
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import PublishIcon from "@material-ui/icons/Publish";
 
 function Post({ displayName, username, verified, text, image, avatar }) {
   return (
@@ -36,7 +36,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
           <ChatBubbleOutlineIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
           <FavoriteBorderIcon fontSize="small" />
-          <PublishOutlinedIcon fontSize="small" />
+          <PublishIcon fontSize="small" />
         </div>
       </div>
     </div>

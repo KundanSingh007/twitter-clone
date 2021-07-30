@@ -16,12 +16,14 @@ function Feed() {
       <TweetBox />
 
       <Post />
-      {/**Post */}
-      {/**Post */}
-      {/**Post */}
-      {/**Post */}
-      {/**Post */}
-      {/**Post */}
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
