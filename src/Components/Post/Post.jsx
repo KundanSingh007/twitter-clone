@@ -2,12 +2,12 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Post.css";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
-import ChatBubbleIcon from "@material-ui/icons/ChatBubble";
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import RepeatIcon from "@material-ui/icons/Repeat";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import PublishIcon from "@material-ui/icons/Publish";
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import PublishOutlinedIcon from '@material-ui/icons/PublishOutlined';
 
-function Post({ displayNanme, username, verified, text, image, avatar }) {
+function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className="post">
       <div className="post__avatar">
@@ -17,8 +17,8 @@ function Post({ displayNanme, username, verified, text, image, avatar }) {
         <div className="post__header">
           <div className="post__headerText">
             <h3>
-              kundan singh{" "}
-              <span>
+              Kundan Singh{" "}
+              <span className="post__headerSpecial">
                 <VerifiedUserIcon className="post__badge" />
                 @reactninja
               </span>
@@ -33,10 +33,10 @@ function Post({ displayNanme, username, verified, text, image, avatar }) {
           alt="https://gph.is/g/a9y90Ba"
         />
         <div className="post__footer">
-          <ChatBubbleIcon fontSize="small" />
+          <ChatBubbleOutlineIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
-          <FavoriteIcon fontSize="small" />
-          <PublishIcon fontSize="small" />
+          <FavoriteBorderIcon fontSize="small" />
+          <PublishOutlinedIcon fontSize="small" />
         </div>
       </div>
     </div>
