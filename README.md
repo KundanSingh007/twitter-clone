@@ -1,6 +1,8 @@
 
 ## Learning to create a twitter clone using MERN stack with firebase!
 
+Material Ui, Material Icons,react-twitter-embed.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
