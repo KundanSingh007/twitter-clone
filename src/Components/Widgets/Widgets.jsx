@@ -18,16 +18,27 @@ function Widgets() {
       <div className="widgets__widgetsContainer">
         <h2>Whats happening</h2>
 
-        <TwitterTweetEmbed tweetId={"858551177860055040"} />
+        <TwitterTweetEmbed tweetId={"1416090043043573762"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="cleverqazi"
+          screenName="big bang theory"
+          options={{ height: 400 }}
+        />
+
+        <TwitterShareButton
+          url={"https://facebook.com/TheBigBangTheory"}
+          options={{ text: "react js is awesome", via: "TheBigBangTheory" }}
+        />
+        <TwitterTweetEmbed tweetId={"1421259414745530371"} />
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="onepieceanime"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
           url={"https://facebook.com/cleverpragrammer"}
-          options={{ text: "reactjs is awesome", via: "cleverqazi" }}
+          options={{ text: "its one piece", via: "onepieceofficial" }}
         />
       </div>
     </div>
