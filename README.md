@@ -6,7 +6,7 @@ also learn css-variable and Firebase for Hosting.
 
 # output:
 
-[Twitter]https://twitter-clone-bykundan.web.app/
+## https://twitter-clone-bykundan.web.app
 
 ## Available Scripts
 
