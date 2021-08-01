@@ -3,12 +3,15 @@ import "./TweetBox.css";
 import { Button, Avatar } from "@material-ui/core";
 
 function TweetBox() {
+
+    const [tweetMessage, setTweetMessage] = useState("");
+
   return (
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
           <Avatar src="https://avatars.githubusercontent.com/u/35429799?v=4" />
-          <input placeholder="whats going guys" type="text" />
+          <input value={tweetMessage} placeholder="whats going guys" type="text" />
         </div>
         <input
           className="tweetBox__imageInput"
