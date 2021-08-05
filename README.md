@@ -1,14 +1,14 @@
 
 ## Learning to create a twitter clone using MERN stack with firebase!
 
-# output:
+# `output:`
 
 ## https://twitter-clone-bykundan.web.app
 
-## Available Scripts
+## `Available Scripts`
 
 In the project directory, you can run:
 
 ### `yarn start`
 
-happy hacking fellas @kdninja
+happy hacking fellas @reactninja
