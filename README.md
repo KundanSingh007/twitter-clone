@@ -1,5 +1,7 @@
 
-## Learning to create a twitter clone using MERN stack with firebase!
+## Learning to create a twitter clone using React.js,node, with firebase!
+
+only twitter post has completed.
 
 # `output:`
 
