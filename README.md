@@ -13,4 +13,4 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-### Happy hacking `@reactkd` 
+### Happy hacking `@reactkd` .
