@@ -1,5 +1,7 @@
-
-## Learning to create a twitter clone using React.js,node, with firebase!
+#A `Twitter-Clone:` 
+## Stack Used in this project: 
+#### Reactjs + react Hooks, CSS, React Context Api => Redux pattern,
+####  Material UI,Flexbox, Firebase's Firestore realtime Database,
 
 only twitter post has completed.
 
