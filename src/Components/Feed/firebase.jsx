@@ -1,15 +1,10 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDG8MkbWp6s3gMfuRNGiRAtmfAKkzgMuKU",
-  authDomain: "twitter-clone-bykundan.firebaseapp.com",
-  projectId: "twitter-clone-bykundan",
-  storageBucket: "twitter-clone-bykundan.appspot.com",
-  messagingSenderId: "535013405797",
-  appId: "1:535013405797:web:41c3477fa7fa711848428c",
+/**create and add your own firebase.js file and add firebase config i.e API in it. */
 };
 
-/**create your own firebase */
+
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
