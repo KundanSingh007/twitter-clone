@@ -1,20 +1,18 @@
+## A `Twitter-Clone:` 
+### Stack Used in this project: 
+#### Reactjs + react Hooks, CSS, React Context Api => Redux pattern,
+####  Material UI,Flexbox, Firebase's Firestore realtime Database,
 
-## Learning to create a twitter clone using MERN stack with firebase!
+only twitter post has completed.
 
-Material Ui, Material Icons,react-twitter-embed.
+### `output:`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### https://twitter-clone-bykundan.web.app
 
-## Available Scripts
+### `Available Scripts`
 
 In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-happy hacking fellas @kdninja
+### Happy hacking `@reactkd` .
